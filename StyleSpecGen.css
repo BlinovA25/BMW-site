@@ -1,0 +1,100 @@
+/*Общие стилевые решения*/
+/*
+	menu
+	menu-ul
+	menu-item
+	footer
+	footerList
+	footerHeading
+	footer-menu-item
+	footerSosial
+*/
+
+.SliderPosition{
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 20px;
+}
+
+/*Слайдер*/
+#img-container img {
+	width: 100% !important;
+}
+
+/* General styles */
+.slider {
+	/*float: left;*/
+	position: relative;
+	width: 100%;
+}
+
+#img-container {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+	height: 90%;
+}
+
+.slider-item {
+	width: 100%;
+	height: 90%;/*80*/
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	top: 0;
+	display: block;
+}
+
+/* Navigation item styles */
+#prev,
+#next {
+	width: 22px;
+	height: 40px;
+	position: absolute;
+	cursor: pointer;
+	opacity: 0.6;
+	z-index: 4;
+}
+
+#prev {
+	left: 10px;
+	top: 40%;
+	display: block;
+	background: url("sim-arrow-left.png") no-repeat;
+}
+
+#next {
+	right: 10px;
+	top: 40%;
+	display: block;
+	background: url("sim-arrow-right.png") no-repeat;
+}
+
+#prev:hover {
+	opacity: 1.0;
+}
+
+#next:hover {
+	opacity: 1.0;
+}
+
+#dots-block {
+	width: 100%;
+	height: 15%;
+	position: absolute;
+	left: 0;
+	bottom: 4%;
+	z-index: 3;
+	text-align: center;
+	margin-top: 2%;
+}
+
+.dot {
+	height: 80%;
+	margin: 7% 2%;
+	padding: 0;
+	visibility: hidden;
+	/*display: inline-block;*/
+	cursor: pointer;
+}
