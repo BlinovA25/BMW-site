@@ -1,0 +1,363 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	max-height: 500%;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h2{
+	font-size: 30px;
+}
+
+/*Общие стилевые решения*/
+.highlight {
+
+}
+
+.Width100pc {
+	width: 100%;
+}
+
+/*Стили тегов заголовков*/
+.H1 {
+	position: absolute;
+	margin-left: 40vw;
+	margin-top: 80vh;
+	font-size: 60px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	opacity: 1;
+}
+
+/*Header and Footer*/
+header {
+	position: absolute;
+	opacity: 1; /* Полупрозрачный фон */
+	margin-left: 15%;
+	margin-top: 20px;
+	width: 70%;
+	height: 100px;
+	display: flex;
+}
+.footer {
+	display: flex;
+	flex-direction: row;
+	background-color: #262626;
+	width: 100%;
+	height: 30vh;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	color: white;
+}
+
+/*Стили для страницы M series*/
+.MseriesHeading {
+	color: black;
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+}
+.MseriesText {
+	color: black;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Стили для блоков с картинками и текстом на главной странице*/
+.MainBlock {
+	margin-left: 15%;
+	width: 70%;
+}
+.HeadingText {
+	color: white;
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.MainDescrText {
+	color: black;
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px 20px 20px 20px;
+}
+.DescriptionText {
+	color: #B1B1B1;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px 20px 0 20px;
+}
+.MainBlockImg1 {
+	width: 35%;
+	margin-left: 15%;
+}
+.MainBlockImg2 {
+	width: 35%;
+	margin-left: 50%;
+}
+.gen {
+	position: relative;
+	margin: 0.1vw;
+}
+.gen-info {
+	display: flex;
+	visibility: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	flex-flow: column nowrap;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.gen:hover .gen-info {
+	visibility: visible;
+}
+
+/*Стили для меню хэдера*/
+.menu {
+	margin-left: 2%;
+	width: 40%;
+	height: 50%;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu-item > a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 130%;
+	color: white;
+	text-decoration: none;
+	margin: 0 10px;
+}
+.menu-item:first-child {
+	margin-left:0;
+}
+.menu-item:last-child {
+	margin-right: 0;
+}
+
+
+.generations-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.generations-wrapper > * {
+	flex: 1 1 46%;
+}
+
+/*Стили для основного текста*/
+.OsnText {
+	width: 70%;
+	margin-left: 15%;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 35px;
+	color: #000000;
+}
+
+/*Оформление футера*/
+.footerList, .footerSosial {
+	margin-left: 15%;
+	padding-top: 20px;
+	width: 35%;
+}
+.footerHeading {
+	color: white;
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+}
+.footer-menu-item {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.footer-menu-item:first-child {
+	margin-top: 20px;
+}
+
+.footer-menu-item > a {
+	font-family: 'Montserrat', sans-serif;
+	color: #B1B1B1;
+	text-decoration: none;
+}
+.footer-menu-item > a:hover {
+	color: white;
+}
+
+.footerCopy{
+	position: absolute;
+	font-size: 18px;
+	color: white;
+	margin-top: 20px;
+}
+/*Стили для иконок футера*/
+.icon {
+	color: #B1B1B1;
+	font-size: 20px;
+}
+.icon:hover {
+	color: white;
+}
+
+/*Стили для заглавных картинок*/
+#FirstImg {
+	width: 100%;
+	height: 100vh;
+	background-image: url("Photo/newM3/NewM3(1).jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-color: #547167;
+}
+#FirstImgGen {
+	width: 100%;
+	height: 100vh;
+	background-image: url("Photo/AllGen1.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-color: #547167;
+}
+#FirstImgMSeries {
+	width: 100%;
+	height: 100vh;
+	background-image: url("Photo/newM3/NewM3(2).jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-color: #547167;
+}
+#FirstImgMap {
+	width: 100%;
+	height: 100vh;
+	background-image: url("Photo/BMW-AllGen.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-color: #547167;
+}
+
+
+
+#FirstImgE21 {
+	width: 100%;
+	height: 100vh;
+	background-image: url("Photo/e21/BMW-e21(1).jpeg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-color: #547167;
+}
+.FirstImgE30 {
+	width: 100%;
+	height: 100vh;
+	background-image: url("Photo/e30/BMW-e30(M3).jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-color: #547167;
+}
+.FirstImgE36 {
+	width: 100%;
+	height: 100vh;
+	background-image: url("Photo/e36/BMW-e36(M3).jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-color: #547167;
+}
+.FirstImgE46 {
+	width: 100%;
+	height: 100vh;
+	background-image: url("Photo/e46/M3e46(2).png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-color: #547167;
+}
+.FirstImgE90 {
+	width: 100%;
+	height: 100vh;
+	background-image: url("Photo/e92/BMW-e92(cabrio).jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-color: #547167;
+}
+.FirstImgF30 {
+	width: 100%;
+	height: 100vh;
+	background-image: url("Photo/f30/BMW-f30(sedan).jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-color: #547167;
+}
+.FirstImgG20 {
+	width: 100%;
+	height: 100vh;
+	background-image: url("Photo/g20/BMW-g20(1).jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-color: #547167;
+}
+
+
+/*Позиционирование карты*/
+.Map{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 15%;
+}
