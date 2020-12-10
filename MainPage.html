@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="StyleIndex.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
@@ -17,7 +18,7 @@
 
     <header>
         <a href="MainPage.html">
-            <img width="100" ; height="100" src="Photo/BMW-logo.svg" />
+            <img width="100"; height="100" src="Photo/BMW-logo.svg" />
         </a>
         <nav class="menu">
             <ul class="menu-ul">
@@ -29,9 +30,7 @@
         </nav>
     </header>
     
-    <!--<div class="H1">
-        <h1> Автомобили BMW 3 серии </h1>
-    </div>-->
+    <h1></h1>
     <div id="FirstImg"></div>
 
 
@@ -55,9 +54,28 @@
         </div>
     </div>
 
+    <div class="MainBlock">
+        
+        <div>
+            <form class="FormBlock" action="https://formspree.io/f/xqkgybel" method="POST">
+                <span class="FormHeading">Здесь вы можете оставить отзыв о нашем сайте</span>
+                <span class="FormText">Ваш e-mail:</span>
+                    <label>
+                        <input type="text" name="_replyto" placeholder="MyEmail@mail.ru">
+                    </label>
+                <span class="FormText">Отзыв о сайте:</span>
+                    <label>
+                        <textarea name="message" placeholder="Введите сюда свой отзыв"></textarea>
+                    </label>
+
+                <button type="submit" class="">Отправить отзыв</button>
+            </form>
+        </div>
+
+    </div>
     <!--Footer-->
     <footer class="footer">
-        
+
         <div class="footerList">
             <p class="footerHeading">Официальные сайты и обратная связь</p>
             <ul>
@@ -65,8 +83,7 @@
                 <li class="footer-menu-item"><a href="https://www.bmw-m.com/en/index.html" target="_blank">BMW M</a></li>
                 <li class="footer-menu-item"><a href="https://www.bmw-motorsport.com/en/index.html" target="_blank">BMW Motorsport</a></li>
                 <li class="footer-menu-item"><a href="https://www.bmw-drivingexperience.com/en.html" target="_blank">BMW Driving Experiens</a></li>
-                <li class="footer-menu-item"><a href="Map.html">BMW в Беларуси</a></li>
-                <li class="footer-menu-item"><a href="#">Обратная связь</a></li>
+                <li class="footer-menu-item"><a href="Map.html">Сервис BMW в Беларуси</a></li>
             </ul>
             <p class="footerCopy">&copy; Blinov Anton, 2020</p>
         </div>
@@ -80,7 +97,6 @@
             </ul>
         </div>
 
-        
     </footer>
 
 </body>
