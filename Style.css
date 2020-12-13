@@ -52,7 +52,7 @@ h2{
 	font-size: 30px;
 }
 
-/*Œ·˘ËÂ ÒÚËÎÂ‚˚Â Â¯ÂÌËˇ*/
+/*√é√°√π√®√• √±√≤√®√´√•√¢√ª√• √∞√•√∏√•√≠√®√ø*/
 .highlight {
 
 }
@@ -66,21 +66,20 @@ h2{
 	width: 70%;
 }
 
-/*—ÚËÎË ÚÂ„Ó‚ Á‡„ÓÎÓ‚ÍÓ‚*/
+/*√ë√≤√®√´√® √≤√•√£√Æ√¢ √ß√†√£√Æ√´√Æ√¢√™√Æ√¢*/
 .H1 {
 	position: absolute;
-	margin-left: 40vw;
-	margin-top: 80vh;
-	font-size: 60px;
-	color: white;
+	margin-left: 1000px;
+	margin-top: 100px;
+	font-size: 80px;
+	color: black;
 	font-family: 'Montserrat', sans-serif;
 	opacity: 1;
 }
 
 /*Header and Footer*/
-header {
+.header {
 	position: absolute;
-	opacity: 1; /* œÓÎÛÔÓÁ‡˜Ì˚È ÙÓÌ */
 	margin-left: 15%;
 	margin-top: 20px;
 	width: 70%;
@@ -97,8 +96,15 @@ header {
 	margin-bottom: 0%;
 	color: white;
 }
+.BMWlogo{
+	width: 100px;
+	height: 100px;
+}
 
-/*—ÚËÎË ‰Îˇ ÒÚ‡ÌËˆ˚ M series*/
+
+
+
+/*√ë√≤√®√´√® √§√´√ø √±√≤√∞√†√≠√®√∂√ª M series*/
 .MseriesHeading {
 	color: white;
 	font-size: 28px;
@@ -111,7 +117,7 @@ header {
 	font-family: 'Open Sans', sans-serif;
 }
 
-/*—ÚËÎË ‰Îˇ ·ÎÓÍÓ‚ Ò Í‡ÚËÌÍ‡ÏË Ë ÚÂÍÒÚÓÏ Ì‡ „Î‡‚ÌÓÈ ÒÚ‡ÌËˆÂ*/
+/*√ë√≤√®√´√® √§√´√ø √°√´√Æ√™√Æ√¢ √± √™√†√∞√≤√®√≠√™√†√¨√® √® √≤√•√™√±√≤√Æ√¨ √≠√† √£√´√†√¢√≠√Æ√© √±√≤√∞√†√≠√®√∂√•*/
 .MainBlock {
 	margin-left: 15%;
 	width: 70%;
@@ -127,7 +133,7 @@ header {
 	color: black;
 	font-size: 24px;
 	font-family: 'Open Sans', sans-serif;
-	padding: 10px 20px 20px 20px;
+	padding: 0px 20px 20px 20px;
 }
 .DescriptionText {
 	color: #B1B1B1;
@@ -162,7 +168,7 @@ header {
 	visibility: visible;
 }
 
-/*—ÚËÎË ‰Îˇ ÏÂÌ˛ ı˝‰Â‡*/
+/*√ë√≤√®√´√® √§√´√ø √¨√•√≠√æ √µ√Ω√§√•√∞√†*/
 .menu {
 	margin-left: 10px;
 	width: 500px;
@@ -179,7 +185,7 @@ header {
 }
 .menu-item > a {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 130%;
+	font-size: 20px;
 	color: white;
 	text-decoration: none;
 	margin: 0 10px;
@@ -201,7 +207,7 @@ header {
 	flex: 1 1 46%;
 }
 
-/*—ÚËÎË ‰Îˇ ÓÒÌÓ‚ÌÓ„Ó ÚÂÍÒÚ‡*/
+/*√ë√≤√®√´√® √§√´√ø √Æ√±√≠√Æ√¢√≠√Æ√£√Æ √≤√•√™√±√≤√†*/
 .OsnText {
 	width: 70%;
 	margin-left: 15%;
@@ -213,7 +219,7 @@ header {
 	color: #000000;
 }
 
-/*ŒÙÓÏÎÂÌËÂ ÙÛÚÂ‡*/
+/*√é√¥√Æ√∞√¨√´√•√≠√®√• √¥√≥√≤√•√∞√†*/
 .footerList, .footerSosial {
 	margin-left: 15%;
 	padding-top: 20px;
@@ -247,7 +253,7 @@ header {
 	color: white;
 	margin-top: 20px;
 }
-/*—ÚËÎË ‰Îˇ ËÍÓÌÓÍ ÙÛÚÂ‡*/
+/*√ë√≤√®√´√® √§√´√ø √®√™√Æ√≠√Æ√™ √¥√≥√≤√•√∞√†*/
 .icon {
 	color: #B1B1B1;
 	font-size: 20px;
@@ -256,8 +262,8 @@ header {
 	color: white;
 }
 
-/*—ÚËÎË ‰Îˇ Á‡„Î‡‚Ì˚ı Í‡ÚËÌÓÍ*/
-#FirstImg {
+/*√ë√≤√®√´√® √§√´√ø √ß√†√£√´√†√¢√≠√ª√µ √™√†√∞√≤√®√≠√Æ√™*/
+.FirstImg {	
 	width: 100%;
 	height: 100vh;
 	background-image: url("Photo/newM3/NewM3(1).jpg");
@@ -266,7 +272,7 @@ header {
 	background-size: cover;
 	background-color: #547167;
 }
-#FirstImgGen {
+.FirstImgGen {
 	width: 100%;
 	height: 100vh;
 	background-image: url("Photo/AllGen1.jpg");
@@ -275,7 +281,7 @@ header {
 	background-size: cover;
 	background-color: #547167;
 }
-#FirstImgMSeries {
+.FirstImgMSeries {
 	width: 100%;
 	height: 100vh;
 	background-image: url("Photo/newM3/NewM3(2).jpg");
@@ -284,7 +290,7 @@ header {
 	background-size: cover;
 	background-color: #547167;
 }
-#FirstImgMap {
+.FirstImgMap {
 	width: 100%;
 	height: 100vh;
 	background-image: url("Photo/BMW-AllGen.jpg");
@@ -296,7 +302,7 @@ header {
 
 
 
-#FirstImgE21 {
+.FirstImgE21 {
 	width: 100%;
 	height: 100vh;
 	background-image: url("Photo/e21/BMW-e21(1).jpeg");
@@ -361,9 +367,180 @@ header {
 }
 
 
-/*œÓÁËˆËÓÌËÓ‚‡ÌËÂ Í‡Ú˚*/
+/*√è√Æ√ß√®√∂√®√Æ√≠√®√∞√Æ√¢√†√≠√®√• √™√†√∞√≤√ª*/
 .Map{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-left: 15%;
+}
+
+.hamburger { display: none; }
+
+
+
+/*–±—É—Ä–≥–µ—Ä –º–µ–Ω—é*/
+
+/* —Å–∫—Ä—ã–≤–∞–µ–º —á–µ–∫–±–æ–∫—Å */
+#menu__toggle {
+  opacity: 0;
+}
+/* —Å—Ç–∏–ª–∏–∑—É–µ–º –∫–Ω–æ–ø–∫—É */
+.menu__btn {
+  display: flex; /* –∏—Å–ø–æ–ª—å–∑—É–µ–º flex –¥–ª—è —Ü–µ–Ω—Ç—Ä–∏—Ä–æ–≤–∞–Ω–∏—è —Å–æ–¥–µ—Ä–∂–∏–º–æ–≥–æ */
+  align-items: center;  /* —Ü–µ–Ω—Ç—Ä–∏—Ä—É–µ–º —Å–æ–¥–µ—Ä–∂–∏–º–æ–µ –∫–Ω–æ–ø–∫–∏ */
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+  visibility: hidden;
+}
+/* –¥–æ–±–∞–≤–ª—è–µ–º "–≥–∞–º–±—É—Ä–≥–µ—Ä" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+/* –∫–æ–Ω—Ç–µ–π–Ω–µ—Ä –º–µ–Ω—é */
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  right: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: white;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+/* —ç–ª–µ–º–µ–Ω—Ç—ã –º–µ–Ω—é */
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  right: 0;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .4s;
+}
+.menu__box {
+  transition-duration: .4s;
+}
+.menu__item {
+  transition-duration: .4s;
+}
+
+
+@media(max-width: 870px){
+	.header {
+		position: absolute;
+		margin-left: 0;
+		margin-top: 0;
+		width: 100%;
+		height: 100px;
+		/*background-color: grey;*/ 
+		display: flex;
+		z-index: 50;
+	}
+	.BMWlogo {
+		margin: 10px 0 0 10px;
+		width: 80px;
+		height: 80px;
+	}
+	.menu{
+		display:block;
+		position:relative;
+		width: 40px;
+		height: 40px;
+		/*color: white;*/
+	}
+	.FirstImg {
+		width: 100%;
+		height: 400px;
+		background-image: url("Photo/newM3/NewM3(1).jpg");
+		background-repeat: no-repeat;
+		margin: 0;
+		background-color: #547167;
+	}
+	.menu-item > a {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 12px;
+		color: white;
+		text-decoration: none;
+		margin: 0 5px;
+	}
+	.Vnone {
+		display: none;
+	}
+	.menu__btn {
+  		display: flex; /* –∏—Å–ø–æ–ª—å–∑—É–µ–º flex –¥–ª—è —Ü–µ–Ω—Ç—Ä–∏—Ä–æ–≤–∞–Ω–∏—è —Å–æ–¥–µ—Ä–∂–∏–º–æ–≥–æ */
+  		align-items: center;  /* —Ü–µ–Ω—Ç—Ä–∏—Ä—É–µ–º —Å–æ–¥–µ—Ä–∂–∏–º–æ–µ –∫–Ω–æ–ø–∫–∏ */
+  		position: fixed;
+  		top: 20px;
+  		right: 20px;
+  		width: 26px;
+  		height: 26px;
+  		cursor: pointer;
+  		z-index: 1;
+  		visibility: visible;
+	}
+	.footer{
+		display: flex;
+		flex-direction: column;
+		background-color: #262626;
+		width: 100%;
+		height: 500px;
+		margin-left: 0%;
+		margin-bottom: 0%;
+		color: white;
+	}
+	.footerCopy {
+	position: absolute;
+	font-size: 18px;
+	color: white;
+	margin-top: 170px;
+	}
+
 }
