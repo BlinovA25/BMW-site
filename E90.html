@@ -3,6 +3,8 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="StyleSpecGen.css">
 
@@ -17,18 +19,35 @@
 <body>
 
 
-    <header>
+    <header class="header">
         <a href="MainPage.html">
-            <img width="100" ; height="100" src="Photo/BMW-logo.svg" />
+            <img class="BMWlogo" src="Photo/BMW-logo.svg" />
         </a>
-        <nav class="menu">
-            <ul class="menu-ul">
-                <li class="menu-item"> <a href="MainPage.html"> Главная </a></li>
-                <li class="menu-item"> <a href="Generations.html"> Поколения </a></li>
-                <li class="menu-item"> <a href="MSeries.html"> М серия </a></li>
-                <li class="menu-item"> <a href="https://www.bmw.com/en/index.html" target="_blank"> BMW.com </a></li>
+
+        <div class="Vnone">
+            <nav class="menu">
+                <ul class="menu-ul">
+                    <li class="menu-item"> <a href="MainPage.html"> Главная </a></li>
+                    <li class="menu-item"> <a href="Generations.html"> Поколения </a></li>
+                    <li class="menu-item"> <a href="MSeries.html"> М серия </a></li>
+                    <li class="menu-item"> <a href="https://www.bmw.com/en/index.html" target="_blank"> BMW.com </a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class="menu__box">
+                <li> <a class="menu__item" href="MainPage.html"> Главная </a></li>
+                <li> <a class="menu__item" href="Generations.html"> Поколения </a></li>
+                <li> <a class="menu__item" href="MSeries.html"> М серия </a></li>
+                <li> <a class="menu__item" href="https://www.bmw.com/en/index.html" target="_blank"> BMW.com </a></li>
             </ul>
-        </nav>
+        </div>
+        
     </header>
 
     <div class="FirstImgE90"></div>
@@ -55,7 +74,19 @@
         </div>
     </div>
 
-    <p></p>
+    <div class="Center70pc">
+        <p class="MainDescrText">
+            Официально, серийное производство Е90 началось в 2005 году, сменив предыдущую модель E46. 
+            Универсал (E91), купе(E92) и кабриолет(E93) были введены в строй в конце 2006 года. 
+            По сравнению с предшественником (E46), E90 увеличился в размерах — вырос в длину на 8 см до 4,55 метра и в ширину на 3 см. 
+            Колёсная база увеличилась на 3,5 см. Заметно изменился и дизайн BMW 3 серии. 
+            Для седана BMW E90 доступны эксклюзивные пакеты Lifestyle, Sport, Exclusive Edition и M Sport Package.
+
+            E92 M3 GT2 — модификация гоночного автомобиля для участия в гонках Ле-Ман (2010) после 11-летнего перерыва.
+
+            Всего за период с марта 2005 по декабрь 2009 года было произведено 2,147,247 автомобилей.
+        </p>
+    </div>
 
     <script src="script.js"></script>
     <!--Footer-->
