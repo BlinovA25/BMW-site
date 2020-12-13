@@ -504,6 +504,31 @@ h2{
 		margin: 0;
 		background-color: #547167;
 	}
+	.FirstImgGen {
+		width: 100%;
+		height: 400px;
+		background-repeat: no-repeat;
+		margin: 0;
+		background-color: #547167;
+		background-image: url("Photo/AllGen1.jpg");
+	}
+	.FirstImgMSeries {
+		width: 100%;
+		height: 400px;
+		background-repeat: no-repeat;
+		margin: 0;
+		background-color: #547167;
+		background-image: url("Photo/newM3/NewM3(2).jpg");
+	}
+	.FirstImgMap {
+		width: 100%;
+		height: 400px;
+		background-repeat: no-repeat;
+		margin: 0;
+		background-color: #547167;
+		background-image: url("Photo/BMW-AllGen.jpg");
+	}
+
 	.menu-item > a {
 		font-family: 'Montserrat', sans-serif;
 		font-size: 12px;

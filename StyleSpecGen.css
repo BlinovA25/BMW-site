@@ -1,14 +1,5 @@
-/*Общие стилевые решения*/
-/*
-	menu
-	menu-ul
-	menu-item
-	footer
-	footerList
-	footerHeading
-	footer-menu-item
-	footerSosial
-*/
+
+/*РЎС‚РёР»Рё РєРѕРЅРєСЂРµС‚РЅС‹С… РїРѕРєРѕР»РµРЅРёР№*/
 
 .SliderPosition{
 	width: 70%;
@@ -16,7 +7,7 @@
 	margin-top: 20px;
 }
 
-/*Слайдер*/
+/*РЎР»Р°Р№РґРµСЂ*/
 #img-container img {
 	width: 100% !important;
 }
@@ -33,7 +24,7 @@
 	padding: 0;
 	position: relative;
 	overflow: hidden;
-	height: 90%;
+	height: 0%;
 }
 
 .slider-item {
@@ -61,7 +52,7 @@
 	left: 10px;
 	top: 40%;
 	display: block;
-	background: url("sim-arrow-left.png") no-repeat;
+	background: url("sim-arrow-left.png") no-repeat; 
 }
 
 #next {
@@ -81,20 +72,72 @@
 
 #dots-block {
 	width: 100%;
-	height: 15%;
+	height: 5px;
 	position: absolute;
 	left: 0;
-	bottom: 4%;
+	bottom: 0px;
 	z-index: 3;
 	text-align: center;
-	margin-top: 2%;
+	margin-top: 0;
 }
 
 .dot {
-	height: 80%;
+	height: 10%;
 	margin: 7% 2%;
 	padding: 0;
 	visibility: hidden;
-	/*display: inline-block;*/
+	display: inline-block;
 	cursor: pointer;
+}
+
+@media(max-width: 870px){
+	.FirstImgE30 {
+		width: 100%;
+		height: 400px;
+		background-repeat: no-repeat;
+		margin: 0;
+		background-color: #547167;
+		background-image: url("Photo/e30/BMW-e30(M3).jpg");
+	}
+	.FirstImgE36 {
+		width: 100%;
+		height: 400px;
+		background-repeat: no-repeat;
+		margin: 0;
+		background-color: #547167;
+		background-image: url("Photo/e36/BMW-e36(M3).jpg");
+	}
+	.FirstImgE46 {
+		width: 100%;
+		height: 400px;
+		background-repeat: no-repeat;
+		margin: 0;
+		background-color: #547167;
+		background-image: url("Photo/e46/M3e46(2).png");
+	}
+	.FirstImgE90 {
+		width: 100%;
+		height: 400px;
+		background-repeat: no-repeat;
+		margin: 0;
+		background-color: #547167;
+		background-image: url("Photo/e92/BMW-e92(cabrio).jpg");
+	}
+	.FirstImgF30 {
+		width: 100%;
+		height: 400px;
+		background-repeat: no-repeat;
+		margin: 0;
+		background-color: #547167;
+		background-image: url("Photo/f30/BMW-f30(sedan).jpg");
+	}
+	.FirstImgG20 {
+		width: 100%;
+		height: 400px;
+		background-repeat: no-repeat;
+		margin: 0;
+		background-color: #547167;
+		background-image: url("Photo/g20/BMW-g20(1).jpg");
+	}
+
 }
