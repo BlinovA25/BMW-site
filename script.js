@@ -1,3 +1,5 @@
+//slider
+
 let dots = document.getElementsByClassName('dot'),
     dotsArea = document.getElementById('dots-block'),
     slides = document.getElementsByClassName('slider-item'),

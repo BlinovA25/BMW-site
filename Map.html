@@ -3,6 +3,8 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
     <link rel="stylesheet" href="Style.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,19 +18,37 @@
 <body>
 
 
-    <header>
+    <header class="header">
         <a href="MainPage.html">
-            <img width="100" ; height="100" src="Photo/BMW-logo.svg" />
+            <img class="BMWlogo" src="Photo/BMW-logo.svg" />
         </a>
-        <nav class="menu">
-            <ul class="menu-ul">
-                <li class="menu-item"> <a href="MainPage.html"> Главная </a></li>
-                <li class="menu-item"> <a href="Generations.html"> Поколения </a></li>
-                <li class="menu-item"> <a href="MSeries.html"> М серия </a></li>
-                <li class="menu-item"> <a href="https://www.bmw.com/en/index.html" target="_blank"> BMW.com </a></li>
+
+        <div class="Vnone">
+            <nav class="menu">
+                <ul class="menu-ul">
+                    <li class="menu-item"> <a href="MainPage.html"> Главная </a></li>
+                    <li class="menu-item"> <a href="Generations.html"> Поколения </a></li>
+                    <li class="menu-item"> <a href="MSeries.html"> М серия </a></li>
+                    <li class="menu-item"> <a href="https://www.bmw.com/en/index.html" target="_blank"> BMW.com </a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class="menu__box">
+                <li> <a class="menu__item" href="MainPage.html"> Главная </a></li>
+                <li> <a class="menu__item" href="Generations.html"> Поколения </a></li>
+                <li> <a class="menu__item" href="MSeries.html"> М серия </a></li>
+                <li> <a class="menu__item" href="https://www.bmw.com/en/index.html" target="_blank"> BMW.com </a></li>
             </ul>
-        </nav>
+        </div>
+        
     </header>
+    
     <div id="FirstImgMap"></div>
 
     <div class="Map">
@@ -53,8 +73,7 @@
                 <li class="footer-menu-item"><a href="https://www.bmw-m.com/en/index.html" target="_blank">BMW M</a></li>
                 <li class="footer-menu-item"><a href="https://www.bmw-motorsport.com/en/index.html" target="_blank">BMW Motorsport</a></li>
                 <li class="footer-menu-item"><a href="https://www.bmw-drivingexperience.com/en.html" target="_blank">BMW Driving Experiens</a></li>
-                <li class="footer-menu-item"><a href="Map.html">BMW в Беларуси</a></li>
-                <li class="footer-menu-item"><a href="#">Обратная связь</a></li>
+                <li class="footer-menu-item"><a href="Map.html">Сервис BMW в Беларуси</a></li>
             </ul>
             <p class="footerCopy">&copy; Blinov Anton, 2020</p>
         </div>
