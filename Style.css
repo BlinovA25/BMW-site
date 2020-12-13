@@ -349,7 +349,10 @@ h2{
 	margin-bottom: 20px;
 	margin-left: 15%;
 }
-
+.MapStyle{
+	width: 720px; 
+    height: 540px;
+}
 .hamburger { display: none; }
 
 
@@ -449,14 +452,13 @@ h2{
 }
 
 
-@media(max-width: 870px){
+@media(max-width: 768px){
 	.header {
 		position: absolute;
 		margin-left: 0;
 		margin-top: 0;
 		width: 100%;
 		height: 100px;
-		/*background-color: grey;*/ 
 		display: flex;
 		z-index: 50;
 	}
@@ -470,11 +472,10 @@ h2{
 		position:relative;
 		width: 40px;
 		height: 40px;
-		/*color: white;*/
 	}
 	.FirstImg {
 		width: 100%;
-		height: 40vh;
+		height: 30vh;
 		background-image: url("Photo/newM3/NewM3(1).jpg");
 		background-repeat: no-repeat;
 		margin: 0;
@@ -482,7 +483,7 @@ h2{
 	}
 	.FirstImgGen {
 		width: 100%;
-		height: 40vh;
+		height: 30vh;
 		background-repeat: no-repeat;
 		margin: 0;
 		background-color: #547167;
@@ -490,7 +491,7 @@ h2{
 	}
 	.FirstImgMSeries {
 		width: 100%;
-		height: 40vh;
+		height: 30vh;
 		background-repeat: no-repeat;
 		margin: 0;
 		background-color: #547167;
@@ -498,7 +499,7 @@ h2{
 	}
 	.FirstImgMap {
 		width: 100%;
-		height: 40vh;
+		height: 30vh;
 		background-repeat: no-repeat;
 		margin: 0;
 		background-color: #547167;
@@ -514,6 +515,10 @@ h2{
 	}
 	.Vnone {
 		display: none;
+	}
+	.MapStyle {
+		width: 400px; 
+    	height: 300px;
 	}
 	.menu__btn {
   		display: flex; /* используем flex для центрирования содержимого */
@@ -538,10 +543,22 @@ h2{
 		color: white;
 	}
 	.footerCopy {
-	position: absolute;
-	font-size: 18px;
-	color: white;
-	margin-top: 180px;
+		position: absolute;
+		font-size: 18px;
+		color: white;
+		margin-top: 180px;
+	}
+	.generations-wrapper {
+		display: flex;
+		flex-wrap: wrap;
 	}
 
+	.generations-wrapper > * {
+		flex: 1 1 90%;
+	}
+	.footerList, .footerSosial {
+		margin-left: 10%;
+		padding-top: 20px;
+		width: 80%;
+	}
 }

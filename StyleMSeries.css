@@ -48,4 +48,9 @@
 	.MseriesText {
 		color: black;
 	}
+	.menu__btn > span,
+	.menu__btn > span::before,
+	.menu__btn > span::after {
+  		background-color: white;
+	}
 }
