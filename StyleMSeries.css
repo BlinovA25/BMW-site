@@ -1,0 +1,51 @@
+.gif {
+	background-color: grey;
+}
+.MainBlockImg1 {
+	width: 35%;
+	margin-left: 15%;
+}
+.MainBlockImg2 {
+	width: 35%;
+	margin-left: 50%;
+}
+.MseriesHeading {
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 7px;
+}
+.MseriesText {
+	color: white;
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+@media(min-width: 1670px){
+	.gif {
+		background: url("https://i.gifer.com/1dK.gif") no-repeat fixed; 
+		background-size: 125%;
+	}
+}
+
+@media(max-width: 768px){
+	.gif {
+		background-color: lightgrey;
+	}
+	.MainBlockImg1 {
+		width: 100%;
+		margin: 20px 5px;
+	}
+	.MainBlockImg2 {
+		width: 100%;
+		margin: 20px 5px;
+	}
+	.MseriesHeading {
+		color: black;
+	}
+	.MseriesText {
+		color: black;
+	}
+}
