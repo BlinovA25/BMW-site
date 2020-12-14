@@ -5,7 +5,7 @@
 	margin-top: 10px;
 	font-size: 28px;
 	font-family: 'Montserrat', sans-serif;
-	color: black;
+	color: white;
 }
 
 textarea {
@@ -35,7 +35,7 @@ input {
 	margin-top: 10px;
 	font-size: 22px;
 	font-family: 'Montserrat', sans-serif;
-	color: black;
+	color: white;
 }
 
 button {
@@ -50,4 +50,30 @@ button {
 	display: inline-block;
 	font-size: 18px;
 	font-family: 'Montserrat', sans-serif;
+}
+
+@media(max-width: 768px){
+	textarea, input {
+		width: 200px;
+	}
+	.OsnText {
+		width: 100%;
+		margin-left: 10px;
+		margin-right: 10px;
+		font-size: 20px;
+		line-height: 35px;
+	}
+	.MainDescrText {
+		font-size: 20px;
+		margin: 10px 20px 10px 20px; 
+	}
+	.Center70pc {
+		width: 100%;
+		margin-left: 0;
+	}
+	.FormBlock {
+	display: flex;
+	flex-direction: column;
+	background-color: #808080;
+}
 }

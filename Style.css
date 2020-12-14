@@ -59,6 +59,7 @@ h2{
 
 .Width100pc {
 	width: 100%;
+	margin-left: 0;
 }
 
 .Center70pc{
@@ -276,74 +277,7 @@ h2{
 	background-color: #547167;
 }
 
-
-
-.FirstImgE21 {
-	width: 100%;
-	height: 100vh;
-	background-image: url("Photo/e21/BMW-e21(1).jpeg");
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size: cover;
-	background-color: #547167;
-}
-.FirstImgE30 {
-	width: 100%;
-	height: 100vh;
-	background-image: url("Photo/e30/BMW-e30(M3).jpg");
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size: cover;
-	background-color: #547167;
-}
-.FirstImgE36 {
-	width: 100%;
-	height: 100vh;
-	background-image: url("Photo/e36/BMW-e36(M3).jpg");
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size: cover;
-	background-color: #547167;
-}
-.FirstImgE46 {
-	width: 100%;
-	height: 100vh;
-	background-image: url("Photo/e46/M3e46(2).png");
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size: cover;
-	background-color: #547167;
-}
-.FirstImgE90 {
-	width: 100%;
-	height: 100vh;
-	background-image: url("Photo/e92/BMW-e92(cabrio).jpg");
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size: cover;
-	background-color: #547167;
-}
-.FirstImgF30 {
-	width: 100%;
-	height: 100vh;
-	background-image: url("Photo/f30/BMW-f30(sedan).jpg");
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size: cover;
-	background-color: #547167;
-}
-.FirstImgG20 {
-	width: 100%;
-	height: 100vh;
-	background-image: url("Photo/g20/BMW-g20(1).jpg");
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size: cover;
-	background-color: #547167;
-}
-
-
-/*Ïîçèöèîíèðîâàíèå êàðòû*/
+/*стили карты*/
 .Map{
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -353,8 +287,6 @@ h2{
 	width: 720px; 
     height: 540px;
 }
-.hamburger { display: none; }
-
 
 
 /*бургер меню*/
@@ -425,14 +357,17 @@ h2{
 }
 #menu__toggle:checked ~ .menu__btn > span {
   transform: rotate(45deg);
+  background-color: black;
 }
 #menu__toggle:checked ~ .menu__btn > span::before {
   top: 0;
   transform: rotate(0);
+   background-color: black;
 }
 #menu__toggle:checked ~ .menu__btn > span::after {
   top: 0;
   transform: rotate(90deg);
+   background-color: black;
 }
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
