@@ -6,9 +6,9 @@ let dots = document.getElementsByClassName('dot'),
     next = document.getElementById('nextPic'),
     slideIndex = 1;
 
-showSlides(slideIndex);
+show(slideIndex);
 
-function showSlides (n) 
+function show (n)
     {
         if (n < 1) 
         { slideIndex = slides.length; } 
@@ -25,18 +25,13 @@ function showSlides (n)
         dots[slideIndex - 1].classList.add('active');
     }
 
-function plusSlides (n) 
-{ showSlides(slideIndex += n); }
-
-function minusSlides (n) 
-{ showSlides(slideIndex -= n); }
+function plus (n) 
+{ show(slideIndex += n); }
 
 function currentSlide (n) {
-    showSlides(slideIndex = n)
+    show(slideIndex = n)
 }
-nextPic.onclick = function () {
-    plusSlides(1);
-}
-prevPic.onclick = function () {
-    plusSlides(-1);
-}
+nextPic.onclick = function () 
+{ plus(1); }
+prevPic.onclick = function () 
+{ plus(-1); }
