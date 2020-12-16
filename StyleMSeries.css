@@ -34,13 +34,9 @@
 	.gif {
 		background-color: lightgrey;
 	}
-	.MainBlockImg1 {
-		width: 100%;
-		margin: 20px 5px;
-	}
-	.MainBlockImg2 {
-		width: 100%;
-		margin: 20px 5px;
+	.MainBlockImg1, .MainBlockImg2 {
+		width: 90%;
+		margin: 20px 5%;
 	}
 	.MseriesHeading {
 		color: black;
