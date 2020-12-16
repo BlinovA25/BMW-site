@@ -1,4 +1,3 @@
-//slider
 
 let dots = document.getElementsByClassName('dot'),
     dotsArea = document.getElementById('dots-block'),
@@ -41,13 +40,3 @@ nextPic.onclick = function () {
 prevPic.onclick = function () {
     plusSlides(-1);
 }
-
-/*
-dotsArea.onclick = function (e) {
-    for (let i = 0; i < dots.length + 1; i++) {
-        if (e.target.classList.contains('dot') && e.target == dots[i - 1]) {
-            currentSlide(i);
-        }
-    }
-}
-*/
