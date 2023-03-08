@@ -1,4 +1,4 @@
-# BSTU site
+# BMW generations site
 
 Site written with the help of html, css and JS. It also contains version for smaller devices that has couple of differences from actual desktop version.
 
